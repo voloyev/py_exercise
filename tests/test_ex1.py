@@ -39,3 +39,11 @@ def test_with_zeros():
     expected = [0, 0, 1]
 
     assert result == expected
+
+
+def test_with_all_nines_and_different_length():
+    input_vec = [9, 9, 9, 9]
+    result = add_one(input_vec)
+    expected = [1, 0, 0, 0, 0]
+
+    assert result == expected
