@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "py_exercises"
+version = "0.1.0"
+authors = ["Volodymyr Yevtushenko <voloyev@vivaldi.net>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
